@@ -60,11 +60,15 @@ renv::restore()
 You can try this in your computer by cloning the repository
 
 ```bash
+# Copy the folder from github
 git clone https://github.com/manulera/using_renv
+# Move to the downloaded folder
 cd using_renv
+# Call R (this will automatically install renv and its dependencies)
+R
 ```
 
-Then in the R terminal:
+In case calling R would not install the dependencies, in the R terminal:
 
 ```R
 install.packages("renv")
