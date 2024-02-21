@@ -1,7 +1,6 @@
 library(xlsx)
-library(devtools)
 
-setwd("~/Google_Drive/SGA Analysis Pipeline/SGA-Analysis-Pipeline/HDAr")
+setwd("./HDAr")
 
 libraryFileList <- list()
 libraryFileTransformations <- list()
