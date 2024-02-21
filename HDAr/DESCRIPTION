@@ -1,0 +1,33 @@
+Package: HDAr
+Type: Package
+Title: Analysis of High-Throughput Microbial Fitness Data
+Version: 0.1
+Date: 2017-10-03
+Author: StJohn Townsend
+Maintainer: StJohn Townsend <stjohn.townsend.11@ucl.ac.uk>
+Description: Tools for the analysis of high-throughput microbial fitness data. Includes data normalisation, quality control and interaction scoring functions.
+License: LGPL
+Depends: SummarizedExperiment
+Imports: stringr, Biostrings, gitter, zoo, plyr, matrixcalc, biomartr, ggplot2, reshape2, scales, cobs, ggfortify, impute, limma, statmod, gridExtra, gginnards
+Collate: 
+    'SampleIdentities.R'
+    'HDALibrary.R'
+    'HDA.R'
+    'Accessors.R'
+    'FileExtractor.R'
+    'LinkageExclusion.R'
+    'PCA.R'
+    'Plotting.R'
+    'SimplifyHDA.R'
+    'addCustomAssay.R'
+    'addMutantPositionalInformation.R'
+    'argumentChecks.R'
+    'excludedData.R'
+    'extractAssay.R'
+    'lmFit.R'
+    'metadata.R'
+    'normaliseColonySizes.R'
+    'plotColonySizes.R'
+    'smallColonyExclude.R'
+    'subset.R'
+RoxygenNote: 7.0.2
