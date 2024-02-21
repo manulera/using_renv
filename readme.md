@@ -57,6 +57,22 @@ Now, when you share your project with someone else, they can install the exact v
 renv::restore()
 ```
 
+You can try this in your computer by cloning the repository
+
+```bash
+git clone https://github.com/manulera/using_renv
+cd using_renv
+```
+
+Then in the R terminal:
+
+```R
+install.packages("renv")
+renv::restore()
+```
+
+You can verify that it works by running the `dummy.R` script.
+
 ### More details
 
 You can install packages from Bioconductor, github and others, see [full documentation](https://rstudio.github.io/renv/reference/install.html#bioconductor). Below an example to install from bioconductor
